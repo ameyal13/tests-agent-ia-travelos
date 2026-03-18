@@ -1,0 +1,16 @@
+# agentes
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0   # Nvidia API es compatible con OpenAI
+
+# servidor
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# scraping
+apify-client>=1.8.0
+
+# validación y config
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+python-dotenv>=1.0.0
